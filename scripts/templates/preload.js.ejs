@@ -1,0 +1,18 @@
+window.exports = {
+    "<%= packageName %>": {
+        mode: "none",  // 用于无需 UI 显示，执行一些简单的代码
+
+        args: {
+            // 进入插件时调用
+            enter: (action) => {
+
+                window.utools.hideMainWindow()
+                window.utools.outPlugin()
+
+                console.log('插件装配完成')
+
+                // todo
+            }
+        }
+    }
+}

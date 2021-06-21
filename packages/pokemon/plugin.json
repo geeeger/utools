@@ -1,0 +1,19 @@
+{
+    "pluginName": "pokemon",
+    "description": "获得一个宝可梦精灵名称",
+    "author": "geeeger",
+    "homepage": "https://github.com/geeeger/utools",
+    "preload": "preload.js",
+    "version": "1.0.0",
+    "logo": "logo.png",
+    "features": [
+        {
+            "code": "pokemon",
+            "cmds": ["pokemon", "p"]
+        },
+        {
+            "code": "pokemon-all",
+            "cmds": ["pokemon-all", "pa"]
+        }
+    ]
+}

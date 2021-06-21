@@ -1,0 +1,31 @@
+{
+    "pluginName": "dog-names",
+    "description": "狗狗常用英文名称",
+    "author": "geeeger",
+    "homepage": "https://github.com/geeeger/utools",
+    "preload": "preload.js",
+    "version": "1.0.0",
+    "logo": "logo.png",
+    "features": [
+        {
+           "code": "dog-names",
+           "explain": "随机汪名",
+           "cmds":["dog-names", "dn"]
+        },
+        {
+            "code": "dog-names-all",
+            "explain": "全部汪名",
+            "cmds":["dog-names-all", "dna"]
+        },
+        {
+            "code": "dog-names-male",
+            "explain": "随机♂汪名",
+            "cmds":["dog-names-male", "dnm"]
+        },
+        {
+            "code": "dog-names-female",
+            "explain": "随机♀汪名",
+            "cmds":["dog-names-female", "dnf"]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "pluginName": "cat-names",
+    "description": "获取猫猫常用英文名",
+    "author": "geeeger",
+    "homepage": "https://github.com/geeeger/utools",
+    "preload": "preload.js",
+    "version": "1.0.0",
+    "logo": "logo.png",
+    "features": [
+        {
+           "code": "cat-names",
+           "explain": "随机喵名",
+           "cmds":["cat-names", "cn"]
+        },
+        {
+            "code": "cat-names-all",
+            "explain": "全部喵名",
+            "cmds":["cat-names-all", "cna"]
+        }
+    ]
+}
