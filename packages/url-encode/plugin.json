@@ -1,0 +1,20 @@
+{
+    "pluginName": "url-encode",
+    "description": "输出urlencode内容",
+    "author": "geeeger",
+    "homepage": "https://github.com/geeeger/utools",
+    "preload": "preload.js",
+    "version": "1.0.0",
+    "logo": "logo.png",
+    "features": [
+        {
+            "code": "url-encode",
+            "explain": "url-encode",
+            "cmds":[{
+                "type": "regex",
+                "label": "url-encode",
+                "match": "/^.*$/"
+            }]
+        }
+    ]
+}

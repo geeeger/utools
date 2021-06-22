@@ -61,7 +61,7 @@ window.exports = {
             // 进入插件时调用
             enter: (action) => {
                 window.utools.hideMainWindow()
-                const r = JSON.stringify(rgb2hsl.apply(null, action.payload.split(',')))
+                const r = JSON.stringify(rgb2hsl.apply(null, action.payload.split(',').map(n => Number(n))))
                 window.utools.copyText(r)
                 window.utools.showNotification(`已复制: ${r}`)
                 window.utools.outPlugin()

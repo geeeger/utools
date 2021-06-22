@@ -1,0 +1,19 @@
+{
+    "pluginName": "hex2rgb",
+    "description": "hex2rgb",
+    "author": "geeeger",
+    "homepage": "https://github.com/geeeger/utools",
+    "preload": "preload.js",
+    "version": "1.0.0",
+    "logo": "logo.png",
+    "features": [
+        {
+            "code": "hex2rgb",
+            "cmds":[{
+                "type": "regex",
+                "label": "hex转换rgb（#ffffff）",
+                "match": "/^[#]?([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/i"
+            }]
+        }
+    ]
+}

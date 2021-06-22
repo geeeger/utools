@@ -9,6 +9,7 @@
     "features": [
         {
             "code": "weather",
+            "explain": "天气",
             "cmds":["weather"]
         }
     ]

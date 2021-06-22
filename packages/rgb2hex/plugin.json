@@ -1,0 +1,19 @@
+{
+    "pluginName": "rgb2hex",
+    "description": "rgb2hex",
+    "author": "geeeger",
+    "homepage": "https://github.com/geeeger/utools",
+    "preload": "preload.js",
+    "version": "1.0.0",
+    "logo": "logo.png",
+    "features": [
+        {
+            "code": "rgb2hex",
+            "cmds":[{
+                "type": "regex",
+                "label": "rgb转换hex(\\d{1,3},\\d{1,3},\\d{1,3})",
+                "match": "/^\\d{1,3},\\d{1,3},\\d{1,3}$/"
+            }]
+        }
+    ]
+}
