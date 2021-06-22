@@ -1,0 +1,15 @@
+{
+    "pluginName": "weather",
+    "description": "天气预报",
+    "author": "geeeger",
+    "homepage": "https://github.com/geeeger/utools",
+    "preload": "preload.js",
+    "version": "1.0.0",
+    "logo": "logo.png",
+    "features": [
+        {
+            "code": "weather",
+            "cmds":["weather"]
+        }
+    ]
+}
