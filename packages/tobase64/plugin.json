@@ -1,0 +1,24 @@
+{
+    "pluginName": "tobase64",
+    "description": "tobase64",
+    "author": "geeeger",
+    "homepage": "https://github.com/geeeger/utools",
+    "preload": "preload.js",
+    "version": "1.0.0",
+    "logo": "logo.png",
+    "features": [
+        {
+            "code": "tobase64",
+            "explain": "tobase64",
+            "cmds":[
+                "tobase64",
+                {
+                    "type": "files",
+                    "fileType": "file",
+                    "match": "/\\.(png|jpeg|jpg|gif|svg)/i",
+                    "label": "tobase64"
+                }
+            ]
+        }
+    ]
+}
